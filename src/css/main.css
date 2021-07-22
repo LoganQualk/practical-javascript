@@ -1,0 +1,24 @@
+figure {
+    margin: 0;
+    position: relative;
+}
+
+img {
+    display: block;
+    width: 100%;
+    opacity: 50%;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.before {
+    background: url("https://images.unsplash.com/photo-1626944790309-d6fa83aac18b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80");
+    position: absolute;
+    background-size: cover;
+    /* backdrop-filter: blur(100px); */
+    height: 100%;
+    width: 50%;
+    opacity: .5;
+}
